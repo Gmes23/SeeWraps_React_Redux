@@ -1,0 +1,21 @@
+
+.header_container {
+    width: 100%;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 3%;
+    height: 100px;
+}
+
+.navlinks {
+    display: -webkit-inline-box;
+    float: right;
+}
+
+.navlinks > li {
+    margin: 22px;
+    font-family: atrament-web, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+}

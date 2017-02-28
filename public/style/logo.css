@@ -1,0 +1,28 @@
+
+.seewrap_logo {
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    height: 120px;
+    width: 130px;
+    padding: 10px;
+    padding-top: 15px;
+    background: rgb(255, 30, 30); /* fallback color */
+    background: rgba(255, 29, 30, 0.8);
+}
+
+.logoconfig {
+    color: white;
+    font-family: proxima-nova, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+}
+
+.see_logo {
+    font-size: 38px;
+    letter-spacing: 2px;
+}
+
+.wrap_logo {
+    font-size: 32px;
+}

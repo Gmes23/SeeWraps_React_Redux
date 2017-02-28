@@ -1,0 +1,15 @@
+.home_container {
+    width: 100%;
+    background-color: black;
+    height: 75vh;
+    padding-left: 10%;
+    padding-right: 7%;
+}
+
+.text_home_container {
+    position: absolute;
+    top: 30%;
+    padding-left: 136px;
+    width: 50%;
+    background-color: yellow;
+}
