@@ -7,8 +7,7 @@
     width: 130px;
     padding: 10px;
     padding-top: 15px;
-    background: rgb(255, 30, 30); /* fallback color */
-    background: rgba(255, 29, 30, 0.8);
+    background: rgb(1,168,158); /* fallback color */
 }
 
 .logoconfig {
@@ -19,7 +18,7 @@
 }
 
 .see_logo {
-    font-size: 38px;
+    font-size: 35px;
     letter-spacing: 2px;
 }
 

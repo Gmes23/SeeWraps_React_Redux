@@ -5,23 +5,28 @@ class Home extends Component {
  render() {
   return (
       <div className="home_container">
+          <div className="home_billboard">
             <div className="text_home_container">
-                <h1> See Wraps </h1>
-                <p> using Lorem Ipsum is that it has
-                     a more-or-less normal distribution o
-                     f letters, as opposed to using 'Con
-                     tent here, content here', making it l
-                     like readable English. Many desktop p
-                     shing packages and web page editors n
-                     se Lorem Ipsum as their default model
-                     t, and a search for 'lorem ipsum' wil
-                     l in their infancy. Various v
-                     ersions have evolved over the years, sometimes by acciden
-                     t, sometimes on purpose (injected humour and the like).
+                <h1 className="logo_home"> SEEWRAPS</h1>
+                <p className="description_home">
+                    High quality vehicle wrap, signs, and logos. 
+                    A graphic design shop base in Westchester, NY
+                    serving all the Tri-State Area.
                 </p>
+                <button className="md_button_seewrap">
+                    Contact
+                </button>
             </div>
-            <div className="image-container">
+            <div className="image_container_home">
             </div>
+            <div className="home_billboard_selection">
+                <ul className="nostyle home_billboard_slider">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>                    
+            </div>
+         </div>
       </div>
   );
  }
