@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import '../../public/style/header_navbar.css'; 
-import Logo from './logo';
+import { Logo } from './logo';
 
 class HeaderNavbar extends Component {
  render() {
