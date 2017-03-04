@@ -4,7 +4,7 @@ import Home from './home';
 import Footer from './footer';
 import '../../public/style/app.css'; 
 
-class Try extends Component {
+class Rexample extends Component {
  render() {
   return (
   <div>
@@ -16,4 +16,4 @@ class Try extends Component {
  }
 }
 
-export default Try;
+export default Rexample;

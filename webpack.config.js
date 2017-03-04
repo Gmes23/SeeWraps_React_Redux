@@ -4,7 +4,7 @@ var DIST_DIR = path.resolve(__dirname, "dist");
 var SRC_DIR = path.resolve(__dirname, "src");
 
 var config = {
-    entry: SRC_DIR + "/index.js",
+    entry: SRC_DIR + "/src",
     output: {
         path: DIST_DIR + "/src",
         filename: "bundle.js",

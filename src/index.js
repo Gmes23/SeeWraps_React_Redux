@@ -2,20 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Router, Route, browserHistory, IndexRoute } from "react-router";
 
-import { App } from './components/app';
-import { Try } from './components/try';
+import App from './components/app';
+import Rexample from './components/try';
 import './index.css';
 
 class Index extends React.Component {
-    render(
- 
-
-    ) {
+    render() {
       return (
 
         <Router history={browserHistory}>
-          <Route path={"/"} component={App} >
-            <IndexRoute component={Try} />
+          <Route path={"/home"} component={Rexample} >
           </Route>
         </Router>
       )
