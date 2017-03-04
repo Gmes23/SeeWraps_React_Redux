@@ -9,13 +9,13 @@ class HeaderNavbar extends Component {
         <Logo />
         <div className="seewrap_phonenumber">
           <div className="phone_icon_container">
-          <i className="material-icons phone_icon">phone_iphone</i>
+            Yonkers, New York  /
           </div>
-          <div className="phone_container">
-          <p> 914-423-4015
-            <br />
-              914-426-3671
-          </p>
+          <div className="social_icon_fa">
+          </div>
+          <div className="social_icon_in">
+          </div>
+          <div className="social_icon_yt">
           </div>
         </div>
         <div className="btn_holder_home">

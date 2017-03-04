@@ -46,10 +46,6 @@
     width: 50%;
     top: 220px;
     right: 0px;
-    /* float: right; */
-    background-image: url('/img/placeholder1.jpg');
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
 }
 
 .home_billboard_selection {

@@ -23,10 +23,11 @@ a:hover, a:visited, a:link, a:active {
 }
 
 .md_button_seewrap {
-  width: 94px;
+  width: 120px;
   height: 40px;
   background-color: Transparent;
-  border: 1px solid white;
+  background-color: rgb(1,168,158);
+  border: 1px solid rgb(1,168,158);
   font-family: atrament-web, sans-serif;
   font-style: normal;
   font-weight: 700;

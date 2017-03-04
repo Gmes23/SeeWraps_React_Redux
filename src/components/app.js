@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
-// import HeaderNavbar from './header_navbar';
-// import Home from './home';
-// import Footer from './footer';
-import Try from './try';
+import HeaderNavbar from './header_navbar';
+import Home from './home';
+import Footer from './footer';
 import '../../public/style/app.css'; 
 
 
@@ -11,7 +10,9 @@ class App extends Component {
  render() {
   return (
   <div>
-    { this.props.children }
+     <HeaderNavbar />
+     <Home />
+     <Footer />
   </div>
   );
  }
